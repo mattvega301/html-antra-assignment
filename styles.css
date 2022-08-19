@@ -1,0 +1,91 @@
+body {
+    font-family: sans-serif;
+}
+body .title {
+    text-align: center;
+}
+
+body .first-line, body .last-line {
+    display: flex;
+    justify-content: center;
+}
+
+body .first-line input, body .last-line input{
+    width: 25%;
+    height: 2.5em;
+    margin: 20px;
+    padding-left: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    outline-color: rgb(121, 127, 241); 
+}
+
+
+
+body .middle-lines{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body .middle-lines input{
+    width: calc(50% + 57px);
+    height: 3em;
+    margin: 20px;
+    padding-left: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    outline-color: rgb(121, 127, 241);
+}
+
+body .terms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+body .terms span{
+    color: white;
+    padding: 2px;
+    background-color: rgb(60, 138, 255);
+    border-radius: 5px;
+}
+
+
+
+body .terms .checkbox{
+    width: 25%;
+}
+
+body .terms .checkbox-msg{
+    width: 30%;
+    
+}
+
+body .terms a:link, body .terms a:active, body .terms a:visited, body .terms a:hover{
+    color: rgb(19, 183, 238);
+    text-decoration: inherit;
+}
+
+body .btns-line {
+    display: flex;
+    justify-content: center;
+}
+
+.register-btn, .signin-btn{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin: 1em;
+    height: 2.7em;
+    width: 25%;
+}
+
+.register-btn {
+    background-color: rgb(60, 138, 255);
+}
+
+.signin-btn {
+    background-color: rgb(52, 190, 52);
+}
